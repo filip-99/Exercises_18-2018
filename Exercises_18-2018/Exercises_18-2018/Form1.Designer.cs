@@ -37,7 +37,7 @@
             this.listBoxExerciseResults.ItemHeight = 15;
             this.listBoxExerciseResults.Location = new System.Drawing.Point(13, 13);
             this.listBoxExerciseResults.Name = "listBoxExerciseResults";
-            this.listBoxExerciseResults.Size = new System.Drawing.Size(435, 229);
+            this.listBoxExerciseResults.Size = new System.Drawing.Size(647, 274);
             this.listBoxExerciseResults.TabIndex = 0;
             this.listBoxExerciseResults.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
