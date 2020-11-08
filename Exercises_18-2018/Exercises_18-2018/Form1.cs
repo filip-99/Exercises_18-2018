@@ -17,5 +17,9 @@ namespace Exercises_18_2018
             InitializeComponent();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
