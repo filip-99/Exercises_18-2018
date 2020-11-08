@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.listBoxExerciseResults = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
+            // 
+            // listBoxExerciseResults
+            // 
+            this.listBoxExerciseResults.FormattingEnabled = true;
+            this.listBoxExerciseResults.ItemHeight = 15;
+            this.listBoxExerciseResults.Location = new System.Drawing.Point(13, 13);
+            this.listBoxExerciseResults.Name = "listBoxExerciseResults";
+            this.listBoxExerciseResults.Size = new System.Drawing.Size(435, 229);
+            this.listBoxExerciseResults.TabIndex = 0;
+            this.listBoxExerciseResults.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.listBoxExerciseResults);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -43,6 +55,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.ListBox listBoxExerciseResults;
     }
 }
 

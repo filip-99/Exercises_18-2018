@@ -21,5 +21,10 @@ namespace Exercises_18_2018
         {
 
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
